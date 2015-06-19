@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtools.a  CMakeFiles/tools.dir/src/libtools_socket_wrap.cc.o
+/usr/bin/ranlib libtools.a

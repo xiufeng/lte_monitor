@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cmn_hdr/typedefs.h
+stdlib.h
+-
+stdio.h
+-
+
+../libtools/hdr/libtools_socket_wrap.h
+typedefs.h
+../libtools/hdr/typedefs.h
+boost/thread/mutex.hpp
+-
+pthread.h
+-
+string
+-
+
+/home/xiufeng/Dropbox/lte_monitor/libtools/src/libtools_socket_wrap.cc
+libtools_socket_wrap.h
+/home/xiufeng/Dropbox/lte_monitor/libtools/src/libtools_socket_wrap.h
+sys/socket.h
+-
+sys/select.h
+-
+netinet/in.h
+-
+string.h
+-
+unistd.h
+-
+limits.h
+-
+
